@@ -17,3 +17,8 @@ def show_tasks():
 task = input("Enter the task: ")  # input() is called OUTSIDE the function
 add_task(task)                    # pass the typed text into the function
 show_tasks()
+
+# i make some changes to push on second branch
+
+def show_count():
+    print(f"Total tasks: {len(tasks)}")
